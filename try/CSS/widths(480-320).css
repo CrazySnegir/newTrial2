@@ -1,0 +1,282 @@
+@media screen 
+and (max-device-width: 480px)
+and (min-device-width: 320px)
+{
+	.container{
+		width: 95%;
+		/*margin: 0 0 0 5%;*/
+	}
+	#mainHead{
+		background-image: url(../Images/плпшка.png);
+		height: 620px;
+		width: 1920px;
+	}
+	.mainHeadImg{
+		display: none;
+	}
+	.container{
+		/*width: 1170px;*/
+		/*margin: 0 auto;*/
+		/*border: 1px solid;*/
+		height: 100%;
+	}
+	.titleMain{
+		/*margin: 90px 20px 5px 15px;*/
+		/*border: 1px solid;*/
+		width: 920px;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+	}
+	.titleFirst{
+		/*border: 1px solid;*/
+		font-size: 4em;
+		font-weight: bold;
+		color: white;
+		padding-top: 5px;
+	}
+	.titleSecond{
+		/*border: 1px solid;*/
+		font-size: 3em; 
+		color: #f0f0f0;
+	}
+	.titleThird{
+		margin-top: 5px;
+		font-size: 3em;
+		/*border: 1px solid;*/
+		color: #f0f0f0;
+	}
+	.headButton{
+		background-color: white;
+		border: none;
+		width: 400px;
+		height: 80px;
+		font-size: 2.5em;
+		margin-top: 0;
+		color: #c0132d;
+		font-weight: bold;
+		outline: none;
+	}
+	.mainHeadLine{
+		width: 1920px;
+		background-color: #f0f0f0;
+		height: 130px;
+	}
+	.headLineText{
+		font-weight: bold;
+		font-size: 2.5em;
+		color: #404040;
+		height: 50px;
+		width: 900px;
+		margin-top: 20px;
+		display: inline-block;
+	}
+	.navigation{
+		height: 130px;
+		background-color: white;
+		width: 1920px;
+	}
+	/*.navigationMenu{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}*/
+	/*.navigationMenuItem{
+		display: inline-block;
+		height: 100%;
+	}*/
+	/*.navigationMenuIm{
+		display: block;
+		margin: 0 auto;
+		height: 20%;
+	}*/
+	/*.navigationMenulink{
+		display: block;
+		text-decoration: none;
+		color: #404040;
+		padding: 32px 19px;
+	}*/
+	/*.navigationMenuText{
+		padding-top: 20px;
+	}*/
+	/*.navigationMenulink:hover{
+		color: #ac162c;
+	}*/
+	.mainContant{
+		background-color: #f0f0f0;
+		height: 2000px;
+		width: 1920px;
+	}
+	.firstHalf{
+		/*width: 90%;*/
+		height: 50%;
+		display: block;
+		font-weight: bold;
+		color: #404040;
+		/*vertical-align: top;*/
+	}
+	.descriptionContantLeft{
+		font-size: 3.5em;
+		margin: 10px 20px;
+		display: inline-block;
+
+	}
+	.secondHalf{
+		/*border: 1px solid;*/
+		height: 50%;
+		width: 90%;
+		display: block;
+		/*vertical-align: top;*/
+	}
+	.contain{
+		font-size: 3em;
+		list-style-type: square;
+	}
+	.containItem{
+		color: #ac162c;
+	}
+	.containText{
+		color: #404040;
+	}
+	.containButton{
+		background-color: #ac162c;
+		width: 400px;
+		height: 80px;
+		border: none;
+		font-size: 2.5em;
+		font-weight: bold;
+		color: white;
+		margin: 30px 0 0 20px;
+		outline: none;
+	}
+	.descriptionContantRight{
+		font-size: 2.5em;
+		font-weight: bold;
+		color: #404040;
+		margin-top: 10px;
+	}
+	.listDocuments{
+		background-color: white;
+		width: 500px;
+		height: 200px;
+		border-radius: 20px;
+		margin-top: 20px;
+	}
+	.listDocumentsText{
+		padding: 10px 30px;
+		color: #404040;
+	}
+	.listDocumentsСontent{
+
+	}
+	.listDocumentsСontentItem{
+		color: #ac162c;
+	}
+	.DocumentsText{
+		color: #404040;
+	}
+	.criteriaText{
+		color: #404040;
+		margin: 40px 0;
+		/*padding-top: 10px;*/
+		font-size: 2.5em;
+		font-weight: bold;
+	}
+	.openCriteria{
+		width: 400px;
+		height: 80px;
+		background: none;
+		border: 3px solid;
+		border-color: #ac162c;
+		border-radius: 30px;
+		margin-top: 10px;
+		color: #ac162c;
+		outline: none;
+		display: block;
+		font-size: 2.5em;
+	}
+	.openFile{
+		width: 400px;
+		height: 80px;
+		background: #ac162c;
+		border: 3px solid;
+		border-radius: 30px;
+		margin-top: 10px;
+		color: white;
+		outline: none;
+		display: block;
+		font-size: 2em;
+	}
+	.mainFooter{
+		width: 1920px;
+		height: 800px;
+		background: url(../Images/footer.png);
+	}
+	.footerMainText{
+		color: white;
+		font-weight: bold;
+		font-size: 3em;
+		margin-top: 50px;
+	}
+	.footerList{
+		width: 60%;
+		/*border: 1px solid;*/
+		list-style: none;
+		margin: 80px 0 0 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.footerListItem{
+		display: inline-block;
+		color: white;
+		height: 100%;
+		/*vertical-align: bottom;*/
+	}
+	.footerImg{
+		margin: 0 auto;
+		display: block;
+		height: 60px;
+	}
+	.footerText{
+		display: block;
+		padding-top: 20px;
+		font-size: 2.2em;
+		text-align: center;
+	}
+	.footerButton{
+		width: 400px;
+		height: 80px;
+		background-color: white;
+		border: none;
+		float: right;
+		margin: 5% 50%;
+		color: #ac162c;
+		font-weight: bold;
+		font-size: 2.5em;
+		outline: none;
+	}
+	.navigationMenu{
+		display: none;
+	}
+	.mobileMenu{
+		width: 50%;
+		height: 80px;
+		border: 2px solid #ac162c;
+		font-weight: bold;
+		font-size: 3em;
+		display: block;
+		color: #404040;
+		border-radius: 30px;
+		margin-top: 50px;
+		outline: none;
+	}
+	.mobileItem{
+		font-size: 20px;
+	}
+	option{
+		font-size: 20px;
+		background-color: #f0f0f0;
+	}
+}
